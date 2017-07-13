@@ -9,14 +9,14 @@ ___
 ___
 
 
-#### Pre-Requisites for this project.
+## Pre-Requisites for this project.
 
- Turbo C++ Compiler
+ * Turbo C++ Compiler
  
  If you have not installed this compiler in your system then visit the link  [Download Turbo C++ Compiler](https://goo.gl/mV25lL) 
  and download and  install compiler in your system.
  
-##### Setting up to run the Project
+## Setting up to run the Project
 
 After installation of the compiler in your system visit bin folder of compiler installation directory and create
 a folder named as **AnalogClock**.
