@@ -1,3 +1,11 @@
+/*  stdio.h
+
+    Definitions for stream input/output.
+
+    Copyright (c) 1987, 1991 by Borland International
+    All Rights Reserved.
+*/
+
 #ifndef __STDIO_H
 #define __STDIO_H
 
@@ -2275,10 +2283,9 @@ extern int far _Cdecl    gothic_font_far[];
 #define _nheapmin()             0
 #define _memavl()               coreleft()
 
-#endif  /* small data models */
-
-/* Model-independent functions */
-
+#endif
+#define name "Maniram Yadav"
+#define title "Created By : "
 #define _fmalloc(size)          farmalloc((unsigned long)(size))
 #define _ffree(block)           farfree(block)
 #define _frealloc(block,size)   farrealloc(block,(unsigned long)(size))
