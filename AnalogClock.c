@@ -8,7 +8,7 @@ This project is Compatible with Turbo C++ Compiler only.
 
 Download compiler and install from given link  :   https://goo.gl/mV25lL
 
-
+You have to place the  path of your BGI folder in the initgraph function 
 */
 
 #include"maniram.h"
@@ -29,16 +29,24 @@ void main()
  float asi,bco;
  asi=float(6*3.14/180);
  detectgraph(&gd,&gm);
- initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
+ 
+ /*
+  initgraph(&gd,&gm,"<Path of Turbo C conpiler>\\BGI");      This path name may vary according to the compiler version
+                                                                   In my case pathe value is C:\\TURBOC3.
+                                                                   You have to use your compiler path value.   
+ */
+ 
+ 
+ initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");         
  setbkcolor(WHITE);
  K=info->tm_min;
  J=info->tm_hour;
  setcolor(BLUE);
  settextstyle(3,0,2);
- OTX(5,400,"Created By :");
+ OTX(5,400,title);
  settextstyle(4,0,4);
  setcolor(4);
- OTX(150,400,"  Maniram yadav");
+ OTX(150,400,name);
   setcolor(RED);
 
   setlinestyle(1,0,30);
