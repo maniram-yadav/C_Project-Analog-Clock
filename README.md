@@ -1,6 +1,11 @@
 ##  C Project For Analog Clock
 
 
+___
+
+![Analog Clock](https://github.com/maniram-yadav/C_Project-Analog-Clock/blob/master/analog.png)
+
+___
 
 #### Pre-Requisites for this project.
 
