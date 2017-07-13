@@ -13,12 +13,13 @@ ___
 
  Turbo C++ Compiler
  
- If you have not install this compiler in your system then visit the link  ![Download Turbo C++ Compiler](https://goo.gl/mV25lL) ed
+ If you have not installed this compiler in your system then visit the link  [Download Turbo C++ Compiler](https://goo.gl/mV25lL) 
  and download and  install compiler in your system.
  
 ##### Setting up to run the Project
 
-After installation of the compiler in your system visit bin folder  and create a folder named as **AnalogClock**.o
+After installation of the compiler in your system visit bin folder of compiler installation directory and create
+a folder named as **AnalogClock**.
 
 Download , copy and paste the **maniram.h** and **AnalogClock.c** file from this repository
 in the **AnalogClock** folder which you have created in the bin directory.
